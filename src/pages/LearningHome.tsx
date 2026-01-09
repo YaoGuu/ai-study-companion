@@ -11,7 +11,6 @@ import image_61d5c70747d9a64421277b909c8854718525355a from '../assets/61d5c70747
 import image_1bf6cf573184ef3ea2d94545d8b02bdcc151774d from '../assets/1bf6cf573184ef3ea2d94545d8b02bdcc151774d.png';
 import image_9d2a9c3291b102065e28381db402c0c32404dc51 from '../assets/9d2a9c3291b102065e28381db402c0c32404dc51.png';
 import image_2f2e3b6ccb1388e14f1b30844a9c816bbc8231fa from '../assets/2f2e3b6ccb1388e14f1b30844a9c816bbc8231fa.png';
-import image_35def045862cc023bc89171be5c57cc8f60d17f4 from '../assets/35def045862cc023bc89171be5c57cc8f60d17f4.png';
 import avatarImage from '../assets/ef572b260f42f4c5e836f1b4100eb2752d1c3569.png';
 import React from "react";
 import { motion } from "motion/react";
@@ -103,7 +102,6 @@ export const LearningHome = ({
           animate={{ opacity: 1, y: 0 }}
           className="bg-white rounded-[1.5rem] p-5 shadow-sm border border-purple-50 relative overflow-hidden"
           style={{
-            backgroundImage: `../assets/35def045862cc023bc89171be5c57cc8f60d17f4.png')`,
             backgroundSize: 'cover',
             backgroundPosition: 'center'
           }}

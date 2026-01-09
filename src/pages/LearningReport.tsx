@@ -17,7 +17,6 @@ import { Button } from "../components/ui/button";
 import { Progress } from "../components/ui/progress";
 import { Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, ResponsiveContainer } from 'recharts';
 import { cn } from "../components/ui/utils";
-import avatarBuzz from '../assets/35def045862cc023bc89171be5c57cc8f60d17f4.png';
 
 interface LearningReportProps {
   onBack: () => void;

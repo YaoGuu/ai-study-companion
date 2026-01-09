@@ -2,10 +2,8 @@ import image_292bce46f43e5be502522071459ccfe4130d4dbb from '../assets/292bce46f4
 import image_b2cef4392ab76d4e171b44f8edc919330a3a147f from '../assets/b2cef4392ab76d4e171b44f8edc919330a3a147f.png';
 import image_c8b9e2b8cd3be31b9d358351017cb1adc5931370 from '../assets/c8b9e2b8cd3be31b9d358351017cb1adc5931370.png';
 import image_ef572b260f42f4c5e836f1b4100eb2752d1c3569 from '../assets/ef572b260f42f4c5e836f1b4100eb2752d1c3569.png';
-import avatarTeacher from '../assets/35def045862cc023bc89171be5c57cc8f60d17f4.png';
 import avatarBuzz from '../assets/ef572b260f42f4c5e836f1b4100eb2752d1c3569.png';
 import avatarStudent from '../assets/c8b9e2b8cd3be31b9d358351017cb1adc5931370.png';
-import backgroundImage from '../assets/c9c4e457c77e86fb8fd1c13def8e0e4aa96a7e46.png';
 import sceneImage from '../assets/dc58c984085ea2247276f20646bcd0713ef03e04.png';
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
@@ -72,7 +70,7 @@ export const SpeakingPractice = ({ onBack, onFinish, onNavigateToPlayer }: Speak
   };
 
   return (
-    <div className="h-full bg-cover bg-center flex flex-col font-sans overflow-hidden relative" style={{ backgroundImage: `url(${backgroundImage})` }}>
+    <div className="h-full bg-cover bg-center flex flex-col font-sans overflow-hidden relative" className="bg-gradient-to-br from-purple-100 to-blue-100">
       {/* Dim Overlay */}
       <div className="absolute inset-0 bg-black/20" />
 

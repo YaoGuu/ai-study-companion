@@ -3,7 +3,6 @@ import image_c8b9e2b8cd3be31b9d358351017cb1adc5931370 from '../assets/c8b9e2b8cd
 import image_ef572b260f42f4c5e836f1b4100eb2752d1c3569 from '../assets/ef572b260f42f4c5e836f1b4100eb2752d1c3569.png';
 import React, { useState } from 'react';
 import avatarAlex from '../assets/ef572b260f42f4c5e836f1b4100eb2752d1c3569.png';
-import avatarEmma from '../assets/35def045862cc023bc89171be5c57cc8f60d17f4.png';
 import { 
   Bell, 
   Settings, 

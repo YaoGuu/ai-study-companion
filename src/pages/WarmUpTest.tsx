@@ -1,7 +1,5 @@
-import avatarTeacher from '../assets/35def045862cc023bc89171be5c57cc8f60d17f4.png';
 import avatarBuzz from '../assets/ef572b260f42f4c5e836f1b4100eb2752d1c3569.png';
 import avatarStudent from '../assets/c8b9e2b8cd3be31b9d358351017cb1adc5931370.png';
-import backgroundImage from '../assets/c9c4e457c77e86fb8fd1c13def8e0e4aa96a7e46.png';
 import image_5610dd991a38f9822da382ca2dd3703d1f9f5c35 from '../assets/6ef24a16582070472a044eb1b1182be85d5c468d.png';
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
@@ -67,7 +65,7 @@ export const WarmUpTest = ({ onBack, onComplete, onNavigate }: WarmUpTestProps) 
   };
 
   return (
-    <div className="h-full bg-cover bg-center flex flex-col font-sans overflow-hidden relative" style={{ backgroundImage: `url(${backgroundImage})` }}>
+    <div className="h-full bg-cover bg-center flex flex-col font-sans overflow-hidden relative" className="bg-gradient-to-br from-purple-100 to-blue-100">
       {/* Dim Overlay */}
       {/* 调整透明度（数值越小，图片越清晰） */}
       <div className="absolute inset-0 bg-black/20" /> {/* 10%透明度，图片更亮 */}
