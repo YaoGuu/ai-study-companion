@@ -70,7 +70,7 @@ export const SpeakingPractice = ({ onBack, onFinish, onNavigateToPlayer }: Speak
   };
 
   return (
-    <div className="h-full bg-cover bg-center flex flex-col font-sans overflow-hidden relative" className="bg-gradient-to-br from-purple-100 to-blue-100">
+    <div className="h-full bg-gradient-to-br from-purple-100 to-blue-100 flex flex-col font-sans overflow-hidden relative">
       {/* Dim Overlay */}
       <div className="absolute inset-0 bg-black/20" />
 

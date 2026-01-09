@@ -65,7 +65,7 @@ export const WarmUpTest = ({ onBack, onComplete, onNavigate }: WarmUpTestProps) 
   };
 
   return (
-    <div className="h-full bg-cover bg-center flex flex-col font-sans overflow-hidden relative" className="bg-gradient-to-br from-purple-100 to-blue-100">
+    <div className="h-full bg-gradient-to-br from-purple-100 to-blue-100 flex flex-col font-sans overflow-hidden relative">
       {/* Dim Overlay */}
       {/* 调整透明度（数值越小，图片越清晰） */}
       <div className="absolute inset-0 bg-black/20" /> {/* 10%透明度，图片更亮 */}
