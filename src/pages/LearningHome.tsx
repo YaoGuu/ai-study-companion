@@ -1,18 +1,18 @@
-import image_0197b69c7093dcd9e1c8f90b85a759a41c1aa040 from 'figma:asset/0197b69c7093dcd9e1c8f90b85a759a41c1aa040.png';
-import image_292bce46f43e5be502522071459ccfe4130d4dbb from 'figma:asset/292bce46f43e5be502522071459ccfe4130d4dbb.png';
-import image_6ef24a16582070472a044eb1b1182be85d5c468d from 'figma:asset/6ef24a16582070472a044eb1b1182be85d5c468d.png';
-import image_6a01d307a24ebd61025daf50840a6b998a21d765 from 'figma:asset/6a01d307a24ebd61025daf50840a6b998a21d765.png';
-import image_6e6f5aff19a5414e5543585cb582b8c16f251d78 from 'figma:asset/6e6f5aff19a5414e5543585cb582b8c16f251d78.png';
-import image_c65ea70e0a031bec8680bad5864ce08943efa72f from 'figma:asset/c65ea70e0a031bec8680bad5864ce08943efa72f.png';
-import image_5610dd991a38f9822da382ca2dd3703d1f9f5c35 from 'figma:asset/5610dd991a38f9822da382ca2dd3703d1f9f5c35.png';
-import image_18598b7986469e03838556bdd64555b2bacc2db3 from 'figma:asset/18598b7986469e03838556bdd64555b2bacc2db3.png';
-import image_eb38f3c6c77266fa3361faa01348ea7146cf4a27 from 'figma:asset/eb38f3c6c77266fa3361faa01348ea7146cf4a27.png';
-import image_61d5c70747d9a64421277b909c8854718525355a from 'figma:asset/61d5c70747d9a64421277b909c8854718525355a.png';
-import image_1bf6cf573184ef3ea2d94545d8b02bdcc151774d from 'figma:asset/1bf6cf573184ef3ea2d94545d8b02bdcc151774d.png';
-import image_9d2a9c3291b102065e28381db402c0c32404dc51 from 'figma:asset/9d2a9c3291b102065e28381db402c0c32404dc51.png';
-import image_2f2e3b6ccb1388e14f1b30844a9c816bbc8231fa from 'figma:asset/2f2e3b6ccb1388e14f1b30844a9c816bbc8231fa.png';
-import image_35def045862cc023bc89171be5c57cc8f60d17f4 from 'figma:asset/35def045862cc023bc89171be5c57cc8f60d17f4.png';
-import avatarImage from 'figma:asset/ef572b260f42f4c5e836f1b4100eb2752d1c3569.png';
+import image_0197b69c7093dcd9e1c8f90b85a759a41c1aa040 from '../assets/0197b69c7093dcd9e1c8f90b85a759a41c1aa040.png';
+import image_292bce46f43e5be502522071459ccfe4130d4dbb from '../assets/292bce46f43e5be502522071459ccfe4130d4dbb.png';
+import image_6ef24a16582070472a044eb1b1182be85d5c468d from '../assets/6ef24a16582070472a044eb1b1182be85d5c468d.png';
+import image_6a01d307a24ebd61025daf50840a6b998a21d765 from '../assets/6a01d307a24ebd61025daf50840a6b998a21d765.png';
+import image_6e6f5aff19a5414e5543585cb582b8c16f251d78 from '../assets/6e6f5aff19a5414e5543585cb582b8c16f251d78.png';
+import image_c65ea70e0a031bec8680bad5864ce08943efa72f from '../assets/c65ea70e0a031bec8680bad5864ce08943efa72f.png';
+import image_5610dd991a38f9822da382ca2dd3703d1f9f5c35 from '../assets/5610dd991a38f9822da382ca2dd3703d1f9f5c35.png';
+import image_18598b7986469e03838556bdd64555b2bacc2db3 from '../assets/18598b7986469e03838556bdd64555b2bacc2db3.png';
+import image_eb38f3c6c77266fa3361faa01348ea7146cf4a27 from '../assets/eb38f3c6c77266fa3361faa01348ea7146cf4a27.png';
+import image_61d5c70747d9a64421277b909c8854718525355a from '../assets/61d5c70747d9a64421277b909c8854718525355a.png';
+import image_1bf6cf573184ef3ea2d94545d8b02bdcc151774d from '../assets/1bf6cf573184ef3ea2d94545d8b02bdcc151774d.png';
+import image_9d2a9c3291b102065e28381db402c0c32404dc51 from '../assets/9d2a9c3291b102065e28381db402c0c32404dc51.png';
+import image_2f2e3b6ccb1388e14f1b30844a9c816bbc8231fa from '../assets/2f2e3b6ccb1388e14f1b30844a9c816bbc8231fa.png';
+import image_35def045862cc023bc89171be5c57cc8f60d17f4 from '../assets/35def045862cc023bc89171be5c57cc8f60d17f4.png';
+import avatarImage from '../assets/ef572b260f42f4c5e836f1b4100eb2752d1c3569.png';
 import React from "react";
 import { motion } from "motion/react";
 import {
@@ -103,7 +103,7 @@ export const LearningHome = ({
           animate={{ opacity: 1, y: 0 }}
           className="bg-white rounded-[1.5rem] p-5 shadow-sm border border-purple-50 relative overflow-hidden"
           style={{
-            backgroundImage: `figma:asset/35def045862cc023bc89171be5c57cc8f60d17f4.png')`,
+            backgroundImage: `../assets/35def045862cc023bc89171be5c57cc8f60d17f4.png')`,
             backgroundSize: 'cover',
             backgroundPosition: 'center'
           }}

@@ -1,4 +1,4 @@
-import image_c8b9e2b8cd3be31b9d358351017cb1adc5931370 from 'figma:asset/c8b9e2b8cd3be31b9d358351017cb1adc5931370.png';
+import image_c8b9e2b8cd3be31b9d358351017cb1adc5931370 from '../assets/c8b9e2b8cd3be31b9d358351017cb1adc5931370.png';
 import React from 'react';
 import { motion } from 'motion/react';
 import { 
@@ -17,7 +17,7 @@ import { Button } from "../components/ui/button";
 import { Progress } from "../components/ui/progress";
 import { Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, ResponsiveContainer } from 'recharts';
 import { cn } from "../components/ui/utils";
-import avatarBuzz from 'figma:asset/35def045862cc023bc89171be5c57cc8f60d17f4.png';
+import avatarBuzz from '../assets/35def045862cc023bc89171be5c57cc8f60d17f4.png';
 
 interface LearningReportProps {
   onBack: () => void;

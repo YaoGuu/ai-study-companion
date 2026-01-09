@@ -1,7 +1,7 @@
-import image_6ef24a16582070472a044eb1b1182be85d5c468d from 'figma:asset/6ef24a16582070472a044eb1b1182be85d5c468d.png';
-import image_715b9d47417ca4a247e5187cccaab42cb407e196 from 'figma:asset/715b9d47417ca4a247e5187cccaab42cb407e196.png';
-import image_6e6f5aff19a5414e5543585cb582b8c16f251d78 from 'figma:asset/6e6f5aff19a5414e5543585cb582b8c16f251d78.png';
-import exampleImage from 'figma:asset/c65ea70e0a031bec8680bad5864ce08943efa72f.png';
+import image_6ef24a16582070472a044eb1b1182be85d5c468d from '../assets/6ef24a16582070472a044eb1b1182be85d5c468d.png';
+import image_715b9d47417ca4a247e5187cccaab42cb407e196 from '../assets/715b9d47417ca4a247e5187cccaab42cb407e196.png';
+import image_6e6f5aff19a5414e5543585cb582b8c16f251d78 from '../assets/6e6f5aff19a5414e5543585cb582b8c16f251d78.png';
+import exampleImage from '../assets/c65ea70e0a031bec8680bad5864ce08943efa72f.png';
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
 import { ArrowLeft, Menu, Volume2, Play, Rocket, Heart, BookOpen, Clock, Users } from 'lucide-react';

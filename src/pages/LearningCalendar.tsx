@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Home, Book, Mic, ChevronRight, ChevronDown } from 'lucide-react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, ResponsiveContainer } from 'recharts';
-import image_c8b9e2b8cd3be31b9d358351017cb1adc5931370 from 'figma:asset/c8b9e2b8cd3be31b9d358351017cb1adc5931370.png';
+import image_c8b9e2b8cd3be31b9d358351017cb1adc5931370 from '../assets/c8b9e2b8cd3be31b9d358351017cb1adc5931370.png';
 
 interface LearningCalendarProps {
   onBack: () => void;

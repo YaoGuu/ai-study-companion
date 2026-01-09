@@ -1,8 +1,8 @@
 import svgPaths from "./svg-w05nqh7fqx";
-import img2 from "figma:asset/39dcac0ea855675a06dc87f710ae7ecdd9f36cda.png";
-import img617376Febb7F6C793F737Ebd6A2F774B2 from "figma:asset/ca25a64c7d175974b68255900be5dd1d784b7867.png";
-import imgProfessor2 from "figma:asset/bb396e2965ac549c4038ef13595bb49df6bb54ea.png";
-import img765D129C291B8265F928596Fb7D1132D1 from "figma:asset/6731d2d289f4052a7b1ec2088a2d2a190b9454bd.png";
+import img2 from "../assets/39dcac0ea855675a06dc87f710ae7ecdd9f36cda.png";
+import img617376Febb7F6C793F737Ebd6A2F774B2 from "../assets/ca25a64c7d175974b68255900be5dd1d784b7867.png";
+import imgProfessor2 from "../assets/bb396e2965ac549c4038ef13595bb49df6bb54ea.png";
+import img765D129C291B8265F928596Fb7D1132D1 from "../assets/6731d2d289f4052a7b1ec2088a2d2a190b9454bd.png";
 import { img1, img617376Febb7F6C793F737Ebd6A2F774B1 } from "./svg-xw8y8";
 
 function MaskGroup() {

@@ -1,8 +1,8 @@
-import avatarTeacher from 'figma:asset/35def045862cc023bc89171be5c57cc8f60d17f4.png';
-import avatarBuzz from 'figma:asset/ef572b260f42f4c5e836f1b4100eb2752d1c3569.png';
-import avatarStudent from 'figma:asset/c8b9e2b8cd3be31b9d358351017cb1adc5931370.png';
-import backgroundImage from 'figma:asset/c9c4e457c77e86fb8fd1c13def8e0e4aa96a7e46.png';
-import image_5610dd991a38f9822da382ca2dd3703d1f9f5c35 from 'figma:asset/6ef24a16582070472a044eb1b1182be85d5c468d.png';
+import avatarTeacher from '../assets/35def045862cc023bc89171be5c57cc8f60d17f4.png';
+import avatarBuzz from '../assets/ef572b260f42f4c5e836f1b4100eb2752d1c3569.png';
+import avatarStudent from '../assets/c8b9e2b8cd3be31b9d358351017cb1adc5931370.png';
+import backgroundImage from '../assets/c9c4e457c77e86fb8fd1c13def8e0e4aa96a7e46.png';
+import image_5610dd991a38f9822da382ca2dd3703d1f9f5c35 from '../assets/6ef24a16582070472a044eb1b1182be85d5c468d.png';
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { ArrowLeft, X, Check, RotateCcw } from 'lucide-react';
